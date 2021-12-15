@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+#container {
+    margin: auto;
+    height: 900px;
+    width: 900px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    font-size: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.X_cell {
+    background-color: red;
+    color: white;
+}
+
+.o_cell {
+    background-color: coral;
+    color: black;
+}
